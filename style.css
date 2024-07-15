@@ -1,0 +1,152 @@
+
+.nav {
+    padding: 10px 0;
+  }
+
+  .nav img {
+    width: 60px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .nav a {
+    margin-left: 15px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+    margin-top: 20px;
+    cursor: pointer;
+}
+.main-text{
+    text-align: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 50px;
+    display: block;
+}
+.sub-text{
+    text-align: center;
+    justify-content: center;
+    color: gray;
+    font-size: small;
+    letter-spacing: 4px;
+    
+
+}
+.banners{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  margin-top: 30px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px 26px;
+  text-align: center; 
+}
+
+.card img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+}
+.price{
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 500;
+}
+
+button {
+  padding: 10px 40px;
+  font-size: 10.2px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2px;
+  margin: 2px 2px;
+  
+}
+
+.add-to-cart {
+  background-color: rgb(13, 12, 12);
+  color: white;
+  border-radius: 4px;
+  position: relative;
+}
+
+.add-to-cart .icon {
+  margin-left: 10px;
+  font-size: 10px;
+}
+
+.buy-now {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius:4px;
+}
+
+.buy-now:hover, .add-to-cart:hover {
+  opacity: 0.8;
+}
+ footer {
+  background-color:black;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  margin-top: 25px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #555;
+  color: #fff;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+.price{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
