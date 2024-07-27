@@ -1,4 +1,5 @@
-
+html {
+    scroll-behavior:smooth;
 .nav {
     padding: 10px 0;
   }
